@@ -11,3 +11,15 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
+.render-button-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-content: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.render-btn {
+  text-align: center;
+}

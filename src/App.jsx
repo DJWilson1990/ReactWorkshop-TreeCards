@@ -7,11 +7,13 @@ import TreeCard from "./components/TreeCard";
 import Header from "./components/Header";
 import UseState from "./components/UseState";
 import VoteHeader from "./components/VoteHeader";
+import RenderBtn from "./components/RenderBtn";
 
 export default function App() {
   return (
     <div>
       <Header />
+      <RenderBtn />
       <TreeCard
         treeName="Bonsai"
         location="Japan"

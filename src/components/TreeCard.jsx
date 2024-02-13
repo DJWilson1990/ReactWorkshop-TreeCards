@@ -1,7 +1,6 @@
 import "./TreeCardCSS.css";
 import Button from "./Button";
 import LikeBtn from "./LikeBtn";
-import DislikeBtn from "./DislikeBtn";
 
 export default function TreeCard(props) {
   return (
@@ -15,7 +14,6 @@ export default function TreeCard(props) {
       </a>
       <Button />
       <LikeBtn />
-      <DislikeBtn />
     </div>
   );
 }
