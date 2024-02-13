@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Honk&family=Luckiest+Guy&display=swap");
+
+.tree-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: darkseagreen;
+  width: 500px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tree-header {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tree-image {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.tree-location {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
