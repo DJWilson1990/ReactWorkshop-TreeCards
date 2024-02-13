@@ -8,6 +8,9 @@ export default function TreeCard(props) {
       <img className="tree-image" src={props.imgLink} alt="" />
       <p className="tree-location">{props.location}</p>
       <p className="tree-info">{props.info}</p>
+      <a className="tree-btn" href={props.href}>
+        More info
+      </a>
       <Button />
     </div>
   );

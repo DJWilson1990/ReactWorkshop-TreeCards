@@ -1,13 +1,22 @@
 import "./Button.css";
 
+// export default function Button(props) {
+//   return (
+//     <a href={props.href}>
+//       <button>Click for more info!</button>
+//     </a>
+//   );
+// }
+
+// For alert button
 export default function Button() {
   return (
     <button
       onClick={() => {
-        alert("You clicked me!");
+        alert("Sorry, Link not yet working. Try again soon!");
       }}
     >
-      Click for more info
+      Alert button!
     </button>
   );
 }
