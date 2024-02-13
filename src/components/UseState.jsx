@@ -10,7 +10,7 @@ export default function useStateToCount(props) {
 
   return (
     <div className="vote-count-container">
-      <p className="count-display">Count: {count}</p>
+      <p className="count-display">Votes: {count}</p>
       <button onClick={handleClick} className="vote-button">
         {props.voteTreeName}
       </button>
