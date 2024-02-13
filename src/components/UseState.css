@@ -1,11 +1,12 @@
 .vote-count-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin-top: 20px;
   width: 25%;
   font-family: "Bebas Neue", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .vote-button {
