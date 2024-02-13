@@ -3,6 +3,7 @@ button {
   border-radius: 50px;
   border: none;
   width: 200px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 button:hover {
