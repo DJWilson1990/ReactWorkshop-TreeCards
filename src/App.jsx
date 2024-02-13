@@ -5,6 +5,8 @@ import "./App.css";
 
 import TreeCard from "./components/TreeCard";
 import Header from "./components/Header";
+import UseState from "./components/UseState";
+import VoteHeader from "./components/VoteHeader";
 
 export default function App() {
   return (
@@ -31,6 +33,10 @@ export default function App() {
         info="Arguably no country celebrates the cherry blossom with the excitement of Japan, but the country is hardly the only place on earth with a large assortment of these flowers. Hanami is also celebrated to a lesser extent in China, Korea, and Taiwan. Smaller celebrations can be enjoyed throughout the U.S. and Europe."
         href="https://en.wikipedia.org/wiki/Cherry_blossom"
       />
+      <VoteHeader />
+      <UseState voteTreeName="Bonsai" />
+      <UseState voteTreeName="Weeping Willow" />
+      <UseState voteTreeName="Japanese Cherry Blossom" />
     </div>
   );
 }

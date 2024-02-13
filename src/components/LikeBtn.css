@@ -1,0 +1,22 @@
+.like-container .dislike-container {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+
+.like-button .dislike-button {
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 50px;
+}
+
+.like-button .dislike-button:hover {
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}
+
+.vote-count-container {
+  display: flex;
+  flex-direction: row;
+}
