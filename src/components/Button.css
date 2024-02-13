@@ -1,0 +1,12 @@
+button {
+  margin: 10px;
+  border-radius: 50px;
+  border: none;
+  width: 200px;
+}
+
+button:hover {
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}

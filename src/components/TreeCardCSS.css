@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   border-radius: 20px;
   background-color: darkseagreen;
   width: 500px;
@@ -30,4 +29,9 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 200;
   font-style: normal;
+}
+
+.tree-info {
+  text-align: center;
+  margin: 10px;
 }

@@ -8,4 +8,6 @@
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+  color: coral;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }

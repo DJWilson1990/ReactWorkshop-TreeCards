@@ -1,4 +1,5 @@
 import "./TreeCardCSS.css";
+import Button from "./Button";
 
 export default function TreeCard(props) {
   return (
@@ -6,6 +7,8 @@ export default function TreeCard(props) {
       <h1 className="tree-header">{props.treeName}</h1>
       <img className="tree-image" src={props.imgLink} alt="" />
       <p className="tree-location">{props.location}</p>
+      <p className="tree-info">{props.info}</p>
+      <Button />
     </div>
   );
 }
