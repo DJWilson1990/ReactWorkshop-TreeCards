@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import UseState from "./components/UseState";
 import VoteHeader from "./components/VoteHeader";
 import RenderBtn from "./components/RenderBtn";
+import { interestingTrees } from "./components/MoreTrees";
 
 export default function App() {
   return (
@@ -39,6 +40,23 @@ export default function App() {
       <UseState voteTreeName="Bonsai" />
       <UseState voteTreeName="Weeping Willow" />
       <UseState voteTreeName="Japanese Cherry Blossom" />
+      <h1>
+        Below trees are listed using .map to display an array of items created
+        in MoreTrees.js
+      </h1>
+      {/* using .map by creating an array of trees in MoreTrees.js */}
+      <div className="more-trees-container">
+        {interestingTrees.map((tree) => (
+          <TreeCard
+            key={tree.id}
+            treeName={tree.name}
+            location={tree.location}
+            imgLink={tree.imgLink}
+            info={tree.info}
+            href={tree.href}
+          />
+        ))}
+      </div>
     </div>
   );
 }
